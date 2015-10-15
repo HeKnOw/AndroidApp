@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/red_bright"
+                android:endColor="@color/grey_bright"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/black" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+	<!-- This is the starting look ,end color is above start at bottom, stroke edge,  -->
+    <item>        
+        <shape>
+            <gradient
+                android:endColor="@color/red"
+                android:startColor="@color/red_bright"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/yellow_bright" />
+            <corners
+                android:radius="6dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
+

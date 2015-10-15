@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapInterface" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Button
+        android:id="@+id/bTakeOff"
+        android:layout_width="320px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/button_takeoff"
+        android:text="Take Off"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/bLand"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_land"
+        android:text="Land"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/bDirections"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/bTakeOff"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/bLand"
+        android:background="#333"
+        android:src="@android:drawable/ic_menu_directions" />
+
+    <Button
+        android:id="@+id/bStop"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@+id/bDirections"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:background="@drawable/button_stop"
+        android:text="!"
+        android:textColor="@color/yellow_bright"
+        android:textSize="100sp" />
+
+    <Button
+        android:id="@+id/bDown1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bUp1"
+        android:layout_alignTop="@+id/bStop"
+        android:textSize="23sp"
+        android:background="@drawable/button"
+        android:text="v" />
+
+    <Button
+        android:id="@+id/bUp1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_above="@+id/bDown1"
+        android:layout_alignRight="@+id/bTakeOff"
+        android:background="@drawable/button"
+        android:text="^"
+        android:textSize="30sp" />
+
+</RelativeLayout>

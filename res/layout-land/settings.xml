@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lSettings"
+    android:columnCount="1" >
+
+    <TextView
+        android:id="@+id/tCommunicationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Communications"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/sSignals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tCommunicationLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Turn incoming signals off" />
+
+    <Switch
+        android:id="@+id/sCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sSignals"
+        android:layout_centerHorizontal="true"
+        android:text="Turn Camera Off" />
+
+    <Switch
+        android:id="@+id/sWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bCLI"
+        android:layout_below="@+id/sCamera"
+        android:text="Turn NDS on" />
+
+    <Button
+        android:id="@+id/bCLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/button"
+        android:text="Command Line Interface" />
+
+    <Button
+        android:id="@+id/bPing"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sWifi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/button"
+        android:text="Ping Quadie" />
+
+</RelativeLayout>

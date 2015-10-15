@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quaddie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="motor1">This is motor number 1, it will now start to turn on very slowly to demonstrate how it works</string>
+    <string name="motor2">This is motor number 2, it will now start to turn on very slowly to demonstrate how it works</string>
+    <string name="motor3">This is motor number 3, it will now start to turn on very slowly to demonstrate how it works</string>
+    <string name="motor4">This is motor number 4, it will now start to turn on very slowly to demonstrate how it works</string>
+	<string name="beaglebone">This is the brain of Quaddie, made out of a beaglebone black</string>
+	<color name="black">#000000</color>
+	<color name="green_bright">#00FF00</color>
+	<color name="blue">#0000FF</color>
+	<color name="orange">#aaaa00</color>
+	<color name="green">#003300</color>
+	<color name="yellow">#555500</color>
+	<color name="yellow_bright">#DDDD00</color>
+	<color name="red">#990000</color>
+	<color name="red_bright">#EE0000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="green_dark">#002200</color>
+	<color name="grey">#777777</color>
+	<color name="grey_bright">#EEEEEE</color>
+	<color name="grey_dark">#222222</color>
+</resources>
